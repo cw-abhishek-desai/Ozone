@@ -1,36 +1,31 @@
 {
-  "name": "@core/card",
-  "version": "1.2.5",
+  "name": "@ozone/core",
+  "version": "1.2.0",
   "description": "",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "clean": "rimraf lib",
-    "build": "webpack",
-    "build-babel": "npm run clean && babel src -d lib",
-    "publish": "npm run build-babel && npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "abhishek desai",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
     "@babel/core": "^7.7.5",
     "@babel/plugin-transform-runtime": "^7.23.4",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "@swc/cli": "^0.1.63",
-    "@swc/core": "^1.3.100",
     "babel-loader": "^8.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "@babel/cli": "^7.6.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
   "dependencies": {
-    "@core/button": "1.2.5"
+    "@core/button": "1.2.0",
+    "@core/card": "1.2.0"
   }
 }
