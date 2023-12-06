@@ -13,7 +13,7 @@ function Button(_ref) {
   var children = _ref.children,
     props = (0, _objectWithoutProperties2["default"])(_ref, _excluded);
   return /*#__PURE__*/_react["default"].createElement("button", (0, _extends2["default"])({
-    className: " o-dKuDfS o-fcaNGp o-dsiSgT o-NBTwp o-bVSleT o-cWRslo o-cRLvC o-eqqVmt o-eKWNKE   o-ItVGT o-bIMsfE  o-bkmzIL o-fdTMrI _2f7K o-casNrQ o-fznVqX o-fznVsN ",
+    className: " o-jeeUx o-fcaNGp o-dsiSgT o-NBTwp o-bVSleT o-cWRslo o-cRLvC o-eqqVmt o-eKWNKE   o-ItVGT o-bIMsfE  o-bkmzIL o-fdTMrI _2f7K o-casNrQ o-fznVqX o-fznVsN ",
     type: "button"
   }, props), "Hello World!", children);
 }

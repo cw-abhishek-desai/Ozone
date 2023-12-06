@@ -36,7 +36,7 @@ function Card({props}) {
     </div>
     </a>
   </div>
-  <Button >Custom Card Version 1.2.3 </Button>
+  <Button>Custom Card Version 1.2.3 </Button>
 </div>
   )
 }
