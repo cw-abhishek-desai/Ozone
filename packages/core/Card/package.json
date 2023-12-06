@@ -1,6 +1,6 @@
 {
   "name": "@core/card",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -8,7 +8,7 @@
     "clean": "rimraf lib",
     "build": "webpack",
     "build-babel": "npm run clean && babel src -d lib",
-    "publish": "npm run build-babel && npm publish"
+    "publish-component": "npm run build-babel && npm publish"
   },
   "author": "abhishek desai",
   "license": "ISC",
@@ -29,8 +29,5 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
-  },
-  "dependencies": {
-    "@core/button": "1.2.7"
   }
 }
